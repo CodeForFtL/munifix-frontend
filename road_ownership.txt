@@ -1,0 +1,5 @@
+I was given a pdf showing road ownership in Broward County. It might come in handy for determining who to report road issues to.
+Here is a link to the pdf for whoever is going to be populating the database or to add to the repository:
+https://drive.google.com/file/d/0B8VPBr1OuydtTnBaclBmVHFUd2hPT0o1LVBNX1VEWEszQzdR/edit?usp=sharing
+This file should probably be deleted from the repository after pdf is downloaded.
+P.S. Is issue tracking enabled on this repository?
