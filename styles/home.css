@@ -1,0 +1,10 @@
+#choice_wrapper {
+	display: table;
+	margin: 0px auto;
+}
+
+.choice {
+	display: none;
+	margin-left: 20px;
+	padding: 10px;
+}
