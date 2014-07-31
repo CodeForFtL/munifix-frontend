@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MuniFix</title>
+
+		<!-- css -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel='stylesheet' href='../styles/home.css'>
+	</head>
+	<body>
+		<h1>Welcome to MuniFix</h1>
+		<p><a href='#about'>About us</a></p>
+		<div class='center-block' id='choice_wrapper'>
+			
+
+			<legend>Report Your Issue</legend>
+
+			<div id="" class="form-group">
+				<label class="col-md-4 control-label"  for="street_address">Street Address</label>
+					<input type="text" class="form-control" name="Street Address" id="street_address" value="" />
+				<label class="col-md-4 control-label"  for="city">City</label>
+					<!--<input type="text" name="City" id="city" value="" />-->
+					<select id="city">
+					  <option value="cocr">Coconut Creek</option>
+					  <option value="coci">Cooper City</option>
+					  <option value="cosp">Coral Springs</option>
+					  <option value="dania">Dania Beach</option>
+					  <option value="davie">Davie</option>
+					  <option value="deer">Deerfield Beach</option>
+					  <option value="ftl">Fort Lauderdale</option>
+					  <option value="hall">Hallandale Beach</option>
+					  <option value="hills">Hillsboro Beach</option>
+					  <option value="holly">Hollywood</option>
+					  <option value="ldrlakes">Lauderdale Lakes</option>
+					  <option value="LBTS">Lauderdale-by-the-Sea</option>
+					  <option value="ldrhill">Lauderhill</option>
+					  <option value="lzylake">Lazy Lake</option>
+					  <option value="lthspt">Lighthouse Point</option>
+					  <option value="mrgt">Margate</option>
+					  <option value="mrmr">Miramar</option>
+					  <option value="nola">North Lauderdale</option>
+					  <option value="okldpk">Oakland Park</option>
+					  <option value="pkld">Parkland</option>
+					  <option value="pmpk">Pembroke Park</option>
+					  <option value="pmpn">Pembroke Pines</option>
+					  <option value="pntn">Plantation</option>
+					  <option value="pmbc">Pompano Beach</option>
+					  <option value="srlks">Sea Ranch Lakes</option>
+					  <option value="swrn">Southwest Ranches</option>
+					  <option value="snrs">Sunrise</option>
+					  <option value="tmrc">Tamarac</option>
+					  <option value="wspk">West Park</option>
+					  <option value="wstn">Weston</option>
+					  <option value="wtmn">Wilton Manors</option>
+					</select>
+				<label class="col-md-4 control-label" for="state">State</label>
+					<input type="text" class="form-control input-md" name="State" id="state" value="FL" />
+				<label class="col-md-4 control-label"  for="zip">Zip Code</label>
+					<input type="text" class="form-control input-md" name="zipcode" id="zip" value="" />
+				<label class="col-md-4 control-label"  for="phone">Phone</label>
+					<input type="tel" class="form-control input-md" name="Phone" id="phone" value="" placeholder="954-555-1234"/>
+				<label class="col-md-4 control-label"  for="name">Name</label>
+					<input type="text" class="form-control input-md" name="name" id="name" value="" placeholder="John Doe"/>
+				<label class="col-md-4 control-label"  for="email">E-mail</label>
+					<input type="email" class="form-control input-md" name="E-mail" id="email" value="" placeholder="YourName@domain.com"/>
+				</div>
+			</form>
+
+			<a href='geo.html'><div class='fader choice btn btn-info' id='one_geo'>Report it!</div></a>
+		</div>
+
+		<!-- put scripts at end so page loads faster -->
+		<script type="text/javascript" src="../scripts/jquery.js"></script>
+		<script src='../scripts/home.js'></script>
+	</body>
+</html>
