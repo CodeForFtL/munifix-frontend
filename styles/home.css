@@ -3,8 +3,17 @@
 	margin: 0px auto;
 }
 
-.choice {
+.fader {	
 	display: none;
+}
+
+.choice {
 	margin-left: 20px;
 	padding: 10px;
+}
+
+.vert {
+	position:absolute;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
